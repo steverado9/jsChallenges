@@ -1,0 +1,22 @@
+1)ARGUEMENT
+This behaves like an array but is not an array
+-you can use the .length property on an argument and ...(spread operator) on an argument
+2)Reduce methood??
+3)const
+use this preferably with primitive data types
+use let with reference data types
+4)Hoisting: moving code to the top either maually or with the var keyword before code execution
+5)function decleration: traditional function 
+6)function expression : function decleared with a variable
+7)anonymous function: a function without a name, preferably arror function
+8)default parameter inside a function
+9)rest operator(...): this can only be used at the end
+10)spread operator(...): this can be used anywhere
+11)An IIFE (Immediately Invoked Function Expression)
+is an idiom in which a JavaScript function runs as soon as it is defined
+ They are wrapped in parentheses to turn them into expressions and followed by an 
+ additional pair of parentheses to invoke them immediately after declaration
+12)Classes: A class is a type of function
+-instead of using the keyword function to initiate it, we use the keyword class,
+and the properties are assigned inside a constructor() method
+13)strings: javaScript treats strings as objects when executing methods and properties
