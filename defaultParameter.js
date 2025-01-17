@@ -1,5 +1,5 @@
 //Default parameters
-function multiplyBy(a, mult = 2) {
+const multiplyBy = (a, mult = 2) => {
     mult = mult !== undefined ? mult : 2;
     console.log(a * mult);
 }

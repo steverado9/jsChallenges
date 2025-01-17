@@ -1,14 +1,8 @@
 //Create a funtion that will sum all arguments passed to it
 // Quantity of argumnet is unknown
-// function sum(...arg) {
-//     let num = 0;
-//     for (const element of arg) { //solution one
-//         num += element;
-//     }
-//     console.log(num);
-// }
+//The rest parameter (...) allows a function to treat an indefinite number of arguments as an array
 
-function sum(...args) {
+const sum = (...args) => {
     let total = args.reduce((acc, elem) => acc + elem, 0) //solution two
     console.log(total);
 }

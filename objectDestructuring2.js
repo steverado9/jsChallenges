@@ -24,11 +24,10 @@ let person2 = {
 }
 
 //function
-function shortPerson(object) {
+const shortPerson = (object) => {
     let {name: n, info: {country: c, age: a}, postQuantity: p = 0} = object;
     return {n, c, a, p }
 }
-
 
 console.log(shortPerson(person1));
 // {n: "mike", c: spain, a: 23, p: 100}

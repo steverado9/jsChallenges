@@ -11,7 +11,7 @@ let cars = [
 ];
 
 //function
-function carInfo(car) {
+const carInfo = (car) => {
     if (car.price <= 20000) {
         return `Price of my new ${car.brand} is ${car.price} and it is a cheap car`
     } else if (car.price > 20000) {

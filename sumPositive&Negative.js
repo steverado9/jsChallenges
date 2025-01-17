@@ -11,23 +11,7 @@
 
 let num = [10, -12, 30, -1, -8, 0, 14, -33, 20];
 
-// function sumPlusMinus(arr) {
-//     let add = 0;
-//     let subtract = 0;
-//     for (const element of arr) {
-//         if (element >= 0) {
-//             add += element;
-//         } else {
-//             subtract += element;
-//         }
-//     }
-//     return {
-//         plus: add,
-//         minus: subtract 
-//     }
-// }
-
-function sumPlusMinus(arr) {
+const sumPlusMinus = (arr) => {
     return arr.reduce(
         (acc, elem) => {
             return {
